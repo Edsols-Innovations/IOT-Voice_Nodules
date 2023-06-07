@@ -1,14 +1,7 @@
-﻿/*
-Copyright (C): 2010-2019, Shenzhen Yahboom Tech
-modified from wujianzhang
-load dependency
-"Speech": "file:../pxt-Speech"
-*/
 
-//% color="#3CB371" weight=20 icon="\uf0a1"
 namespace Speech {
     
-    const DATA_HEAD = 0xFD                  //帧头
+    const DATA_HEAD = 0xFD              
     
     let I2C_ADDR = 0x30 
 
